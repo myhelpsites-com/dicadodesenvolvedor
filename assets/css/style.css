@@ -1,0 +1,197 @@
+h1{
+    font-size: min(90px, 10vw);
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Fjalla One', sans-serif;
+}
+
+.r20{
+   margin-bottom: 20px;
+   border-radius: 20px;
+   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.137);
+}
+
+.btnM{
+   background-color: #2D72FE;
+   color: #fff;
+   padding: 10px;
+   transition: all 0.5s;
+}
+
+.btnW{
+   background-color: #ffffff;
+   color: #2D72FE;
+   padding: 10px;
+   transition: all 0.5s;
+}
+
+.navbar-nav .nav-link {
+   padding-right: 10px;
+   padding-left: 10px;
+   width: 100%;
+}
+.btnM:hover{
+   color: #fff;
+   background-color: black;
+}
+
+a:hover{
+   text-decoration: none;
+}
+
+header{
+   position: fixed;
+   width: 100%;
+   z-index: 100;
+   background-color: #fff;
+}
+
+.banner{
+    min-height: 80vh;
+    width: 100%;
+    padding: 5%;
+}
+
+.form-control{
+    border-radius: 30px;
+    text-align: center;
+}
+
+.form-group{
+    text-align: center;
+    width: 80%;
+    float: left;
+}
+.btnSub{
+    float: right;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(0, 197, 122);
+}
+
+
+.box-cookies.accept {
+    display: none !important
+ }
+ 
+ .box-cookies {
+    bottom: 10px;
+    width: 75%;
+    left: 7%;
+    z-index: 998;
+    color: #fff;
+    position: fixed;
+    background: #2D72FE;
+    border-radius: 30px;
+    padding: 20px;
+    animation: bkcolor 2s 2s infinite
+ }
+
+ @keyframes bkcolor {
+     0%{
+        transform: translate(10px, 0px);
+     }
+     50%{
+        transform: translate(0px, 0px);
+
+     }
+     100%{
+        transform: translate(10px, 0px);
+     }
+ }
+ 
+ .box-cookies .msg-cookies,
+ .box-cookies .btn-cookies {
+    text-align: center;
+    padding: 5px;
+   border:none;
+
+ }
+
+ .box-cookies .msg-cookies{
+    padding-top: 15px;
+ }
+ 
+ .box-cookies .btn-cookies {
+    background-color: white;
+    color: #2D72FE;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 30px;
+ }
+ 
+ @media screen and (min-width: 576px) {
+    .box-cookies {
+        display: flex;
+        align-items: center;
+        height: 60px
+    }
+    .box-cookies .btn-cookies {
+       min-height: 10px;
+        margin-left: auto;
+    color: #2D72FE;
+        
+    }
+ }
+ 
+ @media screen and (max-width: 575px) {
+    .box-cookies .btn-cookies {
+        width: 100%
+    }
+ }
+
+ ::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+   -webkit-border-radius: 0px;
+ }
+ 
+ ::-webkit-scrollbar-track-piece {
+   background-color: #ffffff;
+   -webkit-border-radius: 0px;
+ }
+ 
+ ::-webkit-scrollbar-thumb:vertical {
+   height: 5px;
+   background-color: #2D72FE;
+   -webkit-border-radius: 0px;
+ }
+ 
+ ::-webkit-scrollbar-thumb:horizontal {
+   width: 5px;
+   background-color: #2D72FE;
+   -webkit-border-radius: 0px;
+ }
+ 
+
+footer{
+   padding-top: 200px;
+   width: 100%;
+   height: 100vh;
+   color: #fff;
+   background-color: #2D72FE;
+}
+
+.inline{
+   display: block;
+}
+
+
+.link-footer{
+   width: 100%;
+   color: #fff;
+   display: block;
+
+}
+
+.center{
+   text-align: center;
+}
+
+.right{
+   text-align: right;
+}
