@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <h1 title="Dica do desenvolvedor">
-                        Programação <br> Web e mobile
+                        Programação <br> Web e mobile.
                     </h1>
                     <p>
                         Na escola da vida de <b>desenvolvedor fullstack</b> encontramos diversos
