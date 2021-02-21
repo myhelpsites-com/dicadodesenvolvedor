@@ -14,12 +14,12 @@
 
 <body>
     <div class="banner flex">
-    <div class="conversation">
-    <h1>Olá como podemos te ajudar?</h1>
-    <div class="form-group">
-      <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Digite algo!">
-    </div>
-    </div>
+        <div class="container conversation">
+            <h1>Olá como podemos te ajudar?</h1>
+            <div class="form-group">
+                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Digite algo!">
+            </div>
+        </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
